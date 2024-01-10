@@ -1,6 +1,7 @@
 using xunit;
 public class UnitTests
 {
+    [Fact]
     public void TestAddition()
     {
         // given
@@ -16,6 +17,7 @@ public class UnitTests
         Assert.Equal(expectedResult, result);
     }
 
+    [Fact]
     public void TestSubtraction()
     {
         // given
@@ -31,6 +33,7 @@ public class UnitTests
         Assert.Equal(expectedResult, result);
     }
 
+    [Fact]
     public void TestMultiply()
     {
         // given
@@ -46,6 +49,7 @@ public class UnitTests
         Assert.Equal(expectedResult, result);
     }
 
+    [Fact]
     public void TestDivide()
     {
         // given
